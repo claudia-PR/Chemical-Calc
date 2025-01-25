@@ -23,7 +23,8 @@ def calculate_properties(smiles):
 st.title("Calculadora Química")
 st.markdown(
     """Esta aplicación permite calcular propiedades químicas como masa molecular,
-    número de átomos y fórmula molecular a partir de cadenas **SMILES** o nombres **IUPAC**."")
+    número de átomos y fórmula molecular a partir de cadenas **SMILES** o nombres **IUPAC**."""
+)
 
 # Entrada del usuario
 default_smiles = "CCO"  # Etanol como ejemplo
@@ -58,3 +59,4 @@ else:
 
 # Pie de página
 st.markdown("Hecho con ❤️ usando Streamlit y RDKit.")
+
